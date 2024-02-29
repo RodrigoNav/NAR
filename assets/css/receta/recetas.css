@@ -1,0 +1,23 @@
+.recetas {
+    /*background: #C29734;*/
+    background: linear-gradient(90deg, rgba(36,22,0,0.9416141456582633) 0%, rgba(121,99,9,0.9136029411764706) 34%, rgba(158,149,7,0.8827906162464986) 71%, rgba(241,255,0,0.8323704481792717) 100%);    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 0) {
+    .recetas {
+        padding: 5rem 0 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .recetas {
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .recetas {
+        padding: 5rem 0 0 5rem;
+    }
+}

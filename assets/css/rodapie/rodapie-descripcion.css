@@ -1,0 +1,19 @@
+.rodapie__descripcion{
+    display: flex;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 1.5rem;
+    
+    color: #8c8888;
+}
+
+@media screen and (min-width: 0){
+    .rodapie__descripcion{
+    margin-left: 0rem;
+    }
+}
+
+@media screen and (min-width: 768){
+    .rodapie__descripcion{
+        margin-left: 5rem;
+    }
+}

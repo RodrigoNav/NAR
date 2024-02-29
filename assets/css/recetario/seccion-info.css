@@ -1,0 +1,6 @@
+.seccion__info {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

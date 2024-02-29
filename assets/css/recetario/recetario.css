@@ -1,0 +1,73 @@
+
+.receta__info {
+    flex: 0 0 40%; /* 40% del ancho disponible */
+    background-color: #E6B929;
+    margin: 0 0 2.5rem 0; /* Márgen inferior de 2.5rem */
+    padding: 2.5rem;
+}
+
+.divisiones-superiores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.porciones,
+.tiempo {
+    flex: 0 0 calc(50% - 5px); /* 50% del ancho disponible con 5px de espacio entre ellos */
+    align-items: center; 
+}
+
+.ingredientes,
+.notas {
+    flex: 0 0 100%; /* Ocupan el 100% del ancho disponible, uno debajo del otro */
+}
+
+.receta__instrucciones {
+    flex: 1; /* Ocupa el espacio restante */
+    background-color: #E6D029;
+    margin: 0rem 2.5rem 2.5rem 0; /* Márgenes superior y derecho de 2.5rem, margen izquierdo de 0 */
+    padding: 2.5rem;
+}
+
+li.ingredientee{
+    color: rgb(243, 243, 243);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3{
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#centrar{
+    text-align: center;
+}
+
+img.cuchillera{
+    height: 50px;
+    width: 50px;
+    margin-left: 157px;
+    /* margin-top: 30px;    */
+}
+
+img.reloj{
+    height: 50px;
+    width: 50px;
+    margin-left: 157px;
+}
+
+@media screen and (min-width: 0) {
+    img.cuchillera, img.reloj {
+        margin-left: 50px;
+    }
+}
+@media screen and (min-width: 768px) {
+    img.cuchillera, img.reloj {
+        margin-left: 157px;
+    }
+}

@@ -1,0 +1,13 @@
+.rodapie__lista{
+    display: flex;
+    padding-right: 2rem;
+    color: white;
+}
+
+.menu__link__rodapie{
+    margin-right: 1.25rem;
+}
+
+.menu__link__rodapie:hover {
+    text-decoration: underline;
+ }

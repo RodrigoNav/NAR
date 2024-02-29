@@ -1,0 +1,33 @@
+.cabecera {
+    align-items: center;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+@media screen and (min-width:0) {
+    .cabecera {
+        padding: 0 1rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .cabecera {
+        padding: 0 5rem;
+        justify-content: space-between;
+    }
+}
+
+.autores {
+    margin: 10px 0; /* Espaciado entre el logo y los nombres de los autores en responsividad */
+    order: -1;
+}
+
+.menu {
+    order: 3; /* Mueve el menú arriba en responsividad */
+}
